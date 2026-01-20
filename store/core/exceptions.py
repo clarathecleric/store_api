@@ -8,3 +8,10 @@ class BaseException(Exception):
 
 class NotFoundException(BaseException):
     message = "Not Found"
+
+class ProductInsertException(Exception):
+    pass
+
+
+class ProductNotFoundException(Exception):
+    pass
